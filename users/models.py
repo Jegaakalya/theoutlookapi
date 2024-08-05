@@ -6,6 +6,7 @@ from rest_framework.exceptions import ValidationError
 
 class CustomUser(AbstractUser):
     email = models.EmailField(blank=True, null=True , verbose_name="email")
+    phone_number = models.CharField(blank=True, null=True, max_length=15)
     isadmin = models.BooleanField(default=False)
     isUser = models.BooleanField(default=True)
     isReporter = models.BooleanField(default=False)

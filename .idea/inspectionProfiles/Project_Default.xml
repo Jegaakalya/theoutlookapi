@@ -1,0 +1,30 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="str.h3" />
+          <option value="int.find_parent" />
+          <option value="str.find_all" />
+          <option value="int.find" />
+          <option value="int.extract" />
+          <option value="int.find_all" />
+          <option value="int.text" />
+          <option value="int.findNext" />
+          <option value="int.__getitem__" />
+          <option value="int.findParent" />
+          <option value="random.random.randint" />
+          <option value="str.starstwith" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
